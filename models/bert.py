@@ -6,7 +6,7 @@ from pytorch_pretrained import BertModel, BertTokenizer
 
 
 class Config(object):
-
+    """配置参数"""
     """配置参数"""
     def __init__(self, dataset):
         self.model_name = 'bert'
